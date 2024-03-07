@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo;
+package com.orlos.springboot.crudapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

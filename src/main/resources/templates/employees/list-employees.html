@@ -34,7 +34,7 @@
             <td th:text="${tempEmployee.department}"></td>
             <td>
                 <a th:href="@{/employees/showFormForUpdate(employeeId=${tempEmployee.id})}" class="btn btn-info btn-sm">Zaktualizuj</a>
-                <a th:href="@{/employees/delete(employeeId=${tempEmployee.id})}" class="btn btn-danger btn-sm" onclick="if(!(confirm('sure delete employee?'))) return false">Zwolnij</a>
+                <a th:href="@{/employees/delete(employeeId=${tempEmployee.id})}" class="btn btn-danger btn-sm" onclick="if(!(confirm('Czy na pewno chcesz wyrzucić go z pracy?'))) return false">Zwolnij</a>
             </td>
         </tr>
         </tbody>

@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo;
+package com.orlos.springboot.crudapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
